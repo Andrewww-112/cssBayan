@@ -1,0 +1,58 @@
+
+body
+{
+    font-family: Arial , sans-serif;
+    font-size: 20px;
+    line-height: 2 ;
+    color: azure;
+    background-color: black;
+    
+}
+*,*:before*::after{
+    box-sizing: border-box;
+}
+p{
+    margin: 0 0 5px ;
+}
+.meme
+{
+  max-width: 150px;
+  margin: 50px auto;
+  
+}
+.meme-title
+{
+    display: block;
+    padding: 10px 15px;
+    color: #fff;
+    cursor: pointer;
+
+    transition: .2s ease-out ;
+}
+.meme-title:hover
+{
+    background-attachment: #b91125 ;
+}
+.meme-input
+{
+    width: 0;
+    height: 0;
+    -webkit-appearance: none;
+    appearance: none;
+
+    position: absolute;
+}
+.meme-input:checked + .image1
+{
+    display: block;
+}
+.meme-item
+{
+    border: 1px solid red;
+}
+.image1
+{
+    display: none;
+    font-size: 14px;
+
+}
