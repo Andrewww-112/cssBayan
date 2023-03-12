@@ -1,0 +1,46 @@
+body
+{
+    color: azure;
+    background-color: black;
+}
+.meme
+{
+    max-width: 500px;
+    margin:20px auto;
+}
+.meme-title
+{
+    display: block;
+    padding: 10px 15px;
+    color: #fff;
+    cursor: pointer;
+
+    transition: background .2s ease-out ;
+}
+.meme-title:hover
+{
+    background-attachment: #b91125 ;
+}
+.meme-input
+{
+    width: 0;
+    height: 0;
+    -webkit-appearance: none;
+    appearance: none;
+
+    position: absolute;
+}
+.meme-input:checked + image
+{
+    display: block;
+}
+.meme-item
+{
+    border: 1px solid red;
+}
+.image1
+{
+    display: none;
+    font-size: 14px;
+
+}
