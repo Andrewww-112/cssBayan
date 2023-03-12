@@ -1,12 +1,24 @@
-.body
+
+body
 {
+    font-family: Arial , sans-serif;
+    font-size: 20px;
+    line-height: 2 ;
     color: azure;
     background-color: black;
+    
+}
+*,*:before*::after{
+    box-sizing: border-box;
+}
+p{
+    margin: 0 0 5px ;
 }
 .meme
 {
-    max-width: 500px;
-    margin:20px auto;
+  max-width: 150px;
+  margin: 50px auto;
+  
 }
 .meme-title
 {
@@ -15,7 +27,7 @@
     color: #fff;
     cursor: pointer;
 
-    transition: background .2s ease-out ;
+    transition: .2s ease-out ;
 }
 .meme-title:hover
 {
@@ -30,7 +42,7 @@
 
     position: absolute;
 }
-.meme-input:checked + image
+.meme-input:checked + .image1
 {
     display: block;
 }
